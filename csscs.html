@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jozel Shed Surro">
+    <meta name="description" content="CSS Cheat Sheet">
+    <title>Jozel Surro | CSS Cheat Sheet</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul id="navigation">
+            <li class="navigation-item"><a href="/index.html" class="navigation-link">Home</a></li>
+            <li class="navigation-item"><a href="/htmlcs.html" class="navigation-link">HTML Cheat Sheet</a></li>
+            <li class="navigation-item"><a href="/csscs.html" class="navigation-link">CSS Cheat Sheet</a></li>
+        </ul> 
+        <p id="signature"> JOZEL SURRO </p>
+        <a href="https://www.facebook.com/jozel.surro/"><p id="facebook"><img src="/images/facebooklogo.png" alt="FacebookLogo" id="facebooklogo"></a></p>
+        <a href="https://www.instagram.com/jooozel/?next=%2F"><p id="instagram"><img src="/images/instagramlogo.png" alt="InstagramLogo" id="instagramlogo"></a></p>
+        <a href="https://github.com/Jozelsurro2301/jozelsurro"><p id="github"><img src="/images/github.png" alt="githubLogo" id="githublogo"></a></p>    
+        <a href="#" id="back-to-top">Back to top</a>
+    </nav>
+    <header id="css-header">
+        <div id="css-header-title">
+            <h1>CSS</h1>
+            <p>Used to set the style in web pages that contain HTML.</p>
+        </div>
+        <div id="css-header-add">
+            <h2>How to add CSS to your HTML file</h2>
+            <ol>
+                <li><h3>External CSS</h3></li>
+                    <p>Contains a separate CSS file with a <span class="header-highlight">.css</span> extension which contains style Syntax.</p>
+                    <h4>*Including External css to your HTML.</h4>
+                    <p>The external link file is linked to the HTML file using a  <span class="header-highlight">link tag.</span></p>
+                <li><h3>Internal or Embedded CSS</h3></li>
+                <li><h3>Inline CSS</h3></li>
+            </ol>
+        </div>
+        <img src="/images/csslogo.png" alt="CSS LOGO" id="css-logo">
+    </header>
+    <main id="css-main">
+        <button type="button" class="collapsible1">SELECTORS</button>
+        <div class="css-sections" class="content1">
+            <h2 class="css-table-title">SELECTORS</h2>
+            <p class="css-p">Used to select HTML elements you want to style</p>
+
+            <table>
+                <thead>
+                    <th>Selectors</th>
+                    <th>Description</th>
+                    <th>Syntax</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Universal Selctor</th>
+                        <td>This selects all the elemets in your HTML File.</td>
+                        <td><img src="/cssimages/universal.png" alt="Universal Selector" class="css-image"></td>
+                    </tr>
+                    <tr>
+                        <th>Type</th>
+                        <td>This selects HTML elemets in you HTML File.</td>
+                        <td><img src="/cssimages/Type.png" alt="Type Syntax" class="css-image"></td>
+                    </tr>
+                    <tr>
+                        <th>ID</th>
+                        <td>This selects elements based on its unique identifier/ID attribute.</td>
+                        <td><img src="/cssimages/ID.png" alt="ID Selector" class="css-image"></td>
+                    </tr>
+                    <tr>
+                        <th>Class</th>
+                        <td>This selects elements based on its class Syntax.</td>
+                        <td><img class="css-image" src="/cssimages/class.png" alt="Class Selector"></td>
+                    </tr>
+                    <tr>
+                        <th>Combinators</th>
+                        <td>A complex selector with more than one element that has a relationship to each other.</td>
+                        <td><img class="css-image" src="/cssimages/combinators.png" alt="Combinators Selector"></td>
+                    </tr>
+                    <tr>
+                        <th>Attribute</th>
+                        <td>Selects HTML elements that has a specific attribute.</td>
+                        <td><img class="css-image" src="/cssimages/attribute.png" alt="Atribute Selector"></td>
+                    </tr>
+                    <tr>
+                        <th>Pseudo</th>
+                        <td>Defines a special state of an element and adds a style to it based on its state.</td>
+                        <td><img class="css-image" src="/cssimages/anchor.png" alt="Pseudo Selector"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button" class="collapsible1">FONT PROPERTIES</button>
+        <div class="css-sections" class="conten1">
+            <h2 class="css-table-title">FONT PROPERTIES</h2>
+            <p class="css-p">Sets the fonts contents style based on the given attribute.</p>
+            <table>
+                <thead>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Syntax</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>font-family</th>
+                        <td>Specifies what font family will be used.</td>
+                        <td><img class="css-image" src="/cssimages/font-family.png" alt="font-family"></td>
+                    </tr>
+                    <tr>
+                        <th>font-style</th>
+                        <td>Used to style the text into normal, bold, italic, and many more.</td>
+                        <td><img class="css-image" src="/cssimages/font-style.png" alt="font-style"></td>
+                    </tr>
+                    <tr>
+                        <th>font-weight</th>
+                        <td>Used to specify the thickness of the font.</td>
+                        <td><img class="css-image" src="/cssimages/font-weight.png" alt="font-weight"></td>
+                    </tr>
+                    <tr>
+                        <th>font-size</th>
+                        <td>Used to specify the size of the text.</td>
+                        <td><img class="css-image" src="/cssimages/font-size.png" alt="font-size"></td>
+                    </tr>
+                    <tr>
+                        <th>color</th>
+                        <td>Used to specify the color of the text</td>
+                        <td><img class="css-image" src="/cssimages/color.png" alt="color"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button" class="collapsible1">TEXT PROPERTIES</button>
+        <div class="css-sections" class="content1">
+            <h2 class="css-table-title-1">TEXT PROPERTIES</h2>
+            <table>
+                <thead>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Syntax</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>text-alignment</th>
+                        <td>Used to set the horizontal alignment of the text as left, right, centered or justified.</td>
+                        <td><img class="css-image" src="/cssimages/text-align.png" alt="text-alignment"></td>
+                    </tr>
+                    <tr>
+                        <th>text-decoration</th>
+                        <td>Used to add or remove text decorations like underline, overline, line-trough, or none.</td>
+                        <td><img class="css-image" src="/cssimages/text-decoration.png" alt="text-decoration"></td>
+                    </tr>
+                    <tr>
+                        <th>text-transform</th>
+                        <td>Used to change the case of the text.</td>
+                        <td><img class="css-image" src="/cssimages/text-transform.png" alt="text-transform"></td>
+                    </tr>
+                    <tr>
+                        <th>line-height</th>
+                        <td>Used to specify the space between the lines of the text block.</td>
+                        <td><img class="css-image" src="/cssimages/line-height.png" alt="line-height"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button" class="collapsible1">BACKGROUND PROPERTIES</button>
+        <div class="css-sections" class="content1">
+            <h2 class="css-table-title-1">BACKGROUND PROPERTIES</h2>
+            <table>
+                <thead>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Syntax</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>background-color</th>
+                        <td>Used to specify the background color of the page.</td>
+                        <td><img class="css-image" src="/cssimages/background-colot.png" alt="background-color"></td>
+                    </tr>
+                    <tr>
+                        <th>background-image</th>
+                        <td>Used to specify one or more background images to a page</td>
+                        <td><img class="css-image" src="/cssimages/backgroud-image.png" alt="background-image"></td>
+                    </tr>
+                    <tr>
+                        <th>background-position</th>
+                        <td>Used to specify the positioning of the image on the page.</td>
+                        <td><img class="css-image" src="/cssimages/background-position.png" alt="background-position"></td>
+                    </tr>
+                    <tr>
+                        <th>background-attachment</th>
+                        <td>Used to specify the attachment of the image with respect to the container.</td>
+                        <td><img class="css-image" src="/cssimages/background-attachment.png" alt="background-attachment"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button" class="collapsible1">BOX PROPERTIES</button>
+        <div class="css-sections" class="content1">
+            <h2 class="css-table-title-1">BOX PROPERTIES</h2>
+            <table>
+                <thead>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Syntax</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>border</th>
+                        <td>Sets the elements border width, color and size.</td>
+                        <td><img class="css-image" src="/cssimages/border.png" alt="border"></td>
+                    </tr>
+                    <tr>
+                        <th>height</th>
+                        <td>Sets the elements height as a length.</td>
+                        <td><img class="css-image" src="/cssimages/height.png" alt="height"></td>
+                    </tr>
+                    <tr>
+                        <th>width</th>
+                        <td>Sets the elements width as a length.</td>
+                        <td><img class="css-image" src="/cssimages/width.png" alt="width"></td>
+                    </tr>
+                    <tr>
+                        <th>padding</th>
+                        <td>Sets the elements space between the border and the container.</td>
+                        <td><img class="css-image" src="/cssimages/padding.png" alt="padding"></td>
+                    </tr>
+                    <tr>
+                        <th>margin</th>
+                        <td>Sets the elements margin by specifying its length</td>
+                        <td><img class="css-image" src="/cssimages/margin.png" alt="margin"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button" class="collapsible1">CLASSIFCATION PROPERTIES</button>
+        <div class="css-sections" class="content1">
+            <h2 class="css-table-title">CLASSIFCATION PROPERTIES</h2>
+            <p class="css-p">Specifies how and where an element is displayed on a page.</p>
+            <table>
+                <thead>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Syntax</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>display</th>
+                        <td>Defines how elements are displayed in the web page.</td>
+                        <td><img class="css-image" src="/cssimages/display.png" alt="display"></td>
+                    </tr>
+                    <tr>
+                        <th>position</th>
+                        <td>Specifies the positioning method of an element.</td>
+                        <td><img class="css-image" src="/cssimages/position.png" alt="position"></td>
+                    </tr>
+                    <tr>
+                        <th>float</th>
+                        <td>Defines the flow of contect by determining if an element floats left or right, allowing text, or image to wrap around it or be displayed in-line.</td>
+                        <td><img class="css-image" src="/cssimages/float.png" alt="float"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button" class="collapsible1">POSITION ATTRIBUTES</button>
+        <div class="css-sections" class="content1">
+            <h2 class="css-table-title-1">POSITION ATTRIBUTES</h2>
+            <table>
+                <thead>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>fixed</th>
+                        <td>Property will be position relative to the viewport. The element will remain at the same position even you scroll the page.</td>
+                    </tr>
+                    <tr>
+                        <th>static</th>
+                        <td>The default positioning method. The element will be position with the normal flow of the page.</td>
+                    </tr>
+                    <tr>
+                        <th>relative</th>
+                        <td>Positioned relatively with the other elements which are sittinh at the top of it.</td>
+                    </tr>
+                    <tr>
+                        <th>absolute</th>
+                        <td>Positioned with respect to its nearest relative or non-static parent or ancestor.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button" class="collapsible1">DISPLAY ATTRIBUTES</button>
+        <div class="css-sections" class="content1">
+            <h2 class="css-table-title-1">DISPLAY ATTRIBUTES</h2>
+            <table>
+                <thead>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>inline</th>
+                        <td>Displays an element as an inline element.</td>
+                    </tr>
+                    <tr>
+                        <th>block</th>
+                        <td>Displays an element as a block element.</td>
+                    </tr>
+                    <tr>
+                        <th>flex</th>
+                        <td>Displays an element as a block-level flex container.</td>
+                    </tr>
+                    <tr>
+                        <th>grid</th>
+                        <td>Displays an element as a block-level grid contianer.</td>
+                    </tr>
+                    <tr>
+                        <th>inline-block, inline-flex, inline-grid</th>
+                        <td>Displays an element as an inline-level container.</td>
+                    </tr>
+                    <tr>
+                        <th>none</th>
+                        <td>Used to remove the element.</td>
+                    </tr>
+                    <tr>
+                        <th>initial</th>
+                        <td>Used to set the default value.</td>
+                    </tr>
+                    <tr>
+                        <th>inherit</th>
+                        <td>Used to inherit properties from its parents' elements</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <button type="button" class="collapsible1">COMMENTS</button>
+        <div class="css-sections" class="content1">
+            <h2 class="css-table-title">COMMENTS</h2>
+            <p class="css-p">The syntax for commenting in CSS is:</p>
+            <div id="css-comment-container">
+                <img src="/cssimages/Comments.png" alt="Comments Syntax" id="css-comment">
+            </div>
+        </div>
+        
+
+
+    </main>
+
+    <hr class="footer-hr">
+
+    <footer class="footer">
+        <p>
+            <span> Copyright &copy; <time id="year"></time> </span>
+            <span>Jozel Surro</span>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
